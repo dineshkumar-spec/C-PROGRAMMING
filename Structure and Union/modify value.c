@@ -15,6 +15,12 @@ void calculatebyvalue(struct calculator c){
   printf("multiplication:%d\n",c.mul);
   c.div = c.num1 / c.num2;
   printf("division:%d\n",c.div);
+   //after changing
+ c.add--;
+ c.sub++;
+ c.mul--;
+ c.div++;
+ printf("add=%d, sub=%d, mul=%d, div=%d\n",c.add, c.sub, c.mul, c.div);
   printf("___________________________\n");
 }
 
